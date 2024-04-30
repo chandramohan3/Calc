@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="initial">
+        <h2>CHANDRAMOHAN S</h2>
+        <h2 id="num">Register No:212221223002</h2>
+    </div>
+    
+    <div class="box">
+        <div class="container">
+            <p id="res"></p>
+            <input type="text" id="inbox" name="input"><br>
+
+            <button onclick="clr()"> AC</button>
+            <button onclick="del()">DE</button>
+            <button onclick="dis('^')">^</button>
+            <button onclick="dis('/')">/</button><br>
+            <button name="1" onclick="dis('1')">1</button>
+            <button onclick="dis('2')">2</button>
+            <button onclick="dis('3')">3</button>
+            <button onclick="dis('+')">+</button ><br>
+            <button onclick="dis('4')">4</button>
+            <button  onclick="dis('5')">5</button>
+            <button onclick="dis('6')">6</button>
+            <button onclick="dis('-')">-</button><br>
+            <button onclick="dis('7')">7</button>
+            <button onclick="dis('8')">8</button>
+            <button onclick="dis('9')">9</button>
+            <button onclick="dis('x')" >x</button><br>
+            <button  onclick="dis('.')">.</button>
+            <button onclick="dis('0')">0</button>
+            <button id="b10" onclick="fun()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</button><br>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

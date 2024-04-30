@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 260px;
+    height: 425px;
+    background-color: rgb(86, 83, 83);
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    padding: 20px 40px 20px 20px;
+    border-right: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+input {
+    width: 253px;
+    height: 170px;
+    font-size: 30px;
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+
+input[type=text] {
+    top: 50%;
+}
+
+.initial {
+    position: absolute;
+    top: 5%;
+    margin-left: 37%;
+}
+
+#num {
+    margin-left: -10px;
+}
+
+#res {
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+#b10 {
+    padding-right: 106px;
+    background: linear-gradient(to right, lightgreen, rgb(2, 110, 2));
+}
+
+.box {
+    position: absolute;
+    top: 25%;
+    margin-left: 35%;
+    height: 500px;
+    width: 340px;
+    background-color: blue;
+    background: linear-gradient(to right, orange, red);
+    border-radius: 25px;
+}
